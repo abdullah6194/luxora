@@ -20,9 +20,9 @@ body{
 
 .menu-toggle{
     display:none;
-    font-size:28px;
-    color:white;
+    font-size:30px;
     cursor:pointer;
+    color:white;
 }
 
 @media (max-width:768px){
@@ -34,8 +34,6 @@ body{
     .nav-links{
         display:none;
         flex-direction:column;
-        width:100%;
-        background:black;
     }
 
     .nav-links.show{
