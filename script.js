@@ -42,9 +42,15 @@ function filterProducts(category) {
         else if (product.classList.contains(category)) {
             product.style.display = '';
         }
+
+            
         else {
             product.style.display = 'none';
         }
     });
+}
+
+function toggleMenu(){
+    document.querySelector(".nav-links").classList.toggle("show");
 }
 
