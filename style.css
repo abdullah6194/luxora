@@ -20,7 +20,7 @@ body{
 
 .menu-toggle{
     display:none;
-    font-size:30px;
+    font-size:28px;
     color:white;
     cursor:pointer;
 }
@@ -34,34 +34,14 @@ body{
     .nav-links{
         display:none;
         flex-direction:column;
-        position:absolute;
-        top:70px;
-        left:0;
         width:100%;
-        background:#111;
-        padding:20px 0;
+        background:black;
     }
 
     .nav-links.show{
         display:flex;
     }
-
-    .product{
-        width:90%;
-        margin:auto;
-    }
-
-    .hero{
-        flex-direction:column;
-        text-align:center;
-    }
-
-    .hero img{
-        width:70%;
-        margin-top:20px;
-    }
 }
-
 .logo{
     font-size: 32px;
     font-weight: bold;
